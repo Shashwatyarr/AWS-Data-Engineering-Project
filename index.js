@@ -40,7 +40,7 @@ app.post("/query", async (req, res) => {
 
     // 🔥 FIX 2: OUTPUT LOCATION
     ResultConfiguration: {
-      OutputLocation: "s3://student-dataset--bucket/results/",
+      OutputLocation: "s3://student-dataset--bucket/processed/",
     },
 
     // 🔥 FIX 3: WORKGROUP
